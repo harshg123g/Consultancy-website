@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Consultancy</title>
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/contact.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">
+        <!-- <img src="https://img.freepik.com/free-vector/business-logo-template_23-2148801000.jpg" alt="Company Logo"> -->
+        <h1>Consultancy</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Contact Us</h1>
+        <p>
+          Get in touch with our experts for personalized PF and ESI compliance
+          solutions.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact-form" class="hero-button primary">
+            <i class="fas fa-envelope"></i> Send Message
+          </a>
+          <a href="tel:+1234567890" class="hero-button secondary">
+            <i class="fas fa-phone"></i> Call Now
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img
+          src="https://img.freepik.com/free-vector/customer-support-illustration_23-2149167280.jpg"
+          alt="Contact Us"
+        />
+      </div>
+    </section>
+
+    <!-- Business Details Section -->
+    <section class="business-details">
+      <div class="business-details-container">
+        <div class="business-card">
+          <div class="business-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <h3>Our Location</h3>
+          <p>123 Business Street, City, State 12345</p>
+        </div>
+        <div class="business-card">
+          <div class="business-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h3>Working Hours</h3>
+          <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+        </div>
+        <div class="business-card">
+          <div class="business-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h3>Email Us</h3>
+          <p>info@contact.com</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section" id="contact-form">
+      <div class="contact-form-container">
+        <h2>Get in Touch</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              class="form-control"
+              placeholder="Enter your phone number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              class="form-control"
+              placeholder="Enter subject"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              class="form-control"
+              placeholder="Enter your message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-button">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info">
+      <div class="contact-info-grid">
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <h3>Phone</h3>
+          <p>+1 (234) 567-8900</p>
+          <a href="tel:+1234567890">Call Now</a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h3>Email</h3>
+          <p>info@contact.com</p>
+          <a href="mailto:info@contact.com">Send Email</a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <h3>Address</h3>
+          <p>123 Business Street, City, State 12345</p>
+          <a href="#" target="_blank">View on Map</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+      <div class="map-container">
+        <!-- Add your map embed code here -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30765978.00238801!2d61.00083698256397!3d19.729113061269324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1759651807444!5m2!1sen!2sin"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>
+            We provide expert PF and ESI compliance solutions for businesses of
+            all sizes.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <p>Email: info@contact.com</p>
+          <p>Phone: +1 (234) 567-8900</p>
+          <p>Address: 123 Business Street, City, State 12345</p>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Consultancy. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
